@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-const ButtonProps = {
+const buttonProps = {
   /**
    * Value: button | a | input
    * @param {tag}
@@ -93,12 +93,12 @@ const Button = (props) => {
   )
 }
 
-Button.propTypes = ButtonProps;
+Button.propTypes = buttonProps;
 Button.defaultProps = {
   tag: 'button',
   color: 'secondary',
   type: 'button',
-  onClick: () => {},
+  onClick: () => { },
 }
 
 export default Button;
